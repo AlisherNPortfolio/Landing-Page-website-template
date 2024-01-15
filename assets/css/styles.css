@@ -16,8 +16,92 @@ body {
     background-color: #F5F7FA;
 }
 
+p,
+h1, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.margin-0 {
+    margin: 0;
+}
+
+.margin-0-auto {
+    margin: 0 auto;
+}
+
 .mb-40 {
     margin-bottom: 40px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-28 {
+    font-size: 28px;
+}
+
+.font-30 {
+    font-size: 30px;
+}
+
+.font-36 {
+    font-size: 36px;
+}
+
+.font__weight-400 {
+    font-weight: 400;
+}
+
+.font__weight-500 {
+    font-weight: 500;
+}
+
+.font__weight-600 {
+    font-weight: 600;
+}
+
+.font__weight-700 {
+    font-weight: 700;
+}
+
+.line__height-20 {
+    line-height: 20px;
+}
+
+.line__height-24 {
+    line-height: 24px;
+}
+
+.line__height-28 {
+    line-height: 28px;
+}
+
+.line__height-36 {
+    line-height: 36px;
+}
+
+.line__height-44 {
+    line-height: 44px;
+}
+
+.d__flex-sp-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.color-white {
+    color: #fff !important;
+}
+
+.bg__color-white {
+    background-color: #fff !important;
 }
 
 .btn {
@@ -68,7 +152,6 @@ header .logo span,
 footer .logo span {
     font-weight: 800;
     color: #263238;
-    font-size: 30px;
     line-height: 0;
 }
 
@@ -76,7 +159,6 @@ footer .logo span {
 
 ul.menu__list {
     list-style: none;
-    margin: 0;
     padding: 0;
 }
 
@@ -87,10 +169,7 @@ ul.menu__list .menu__list-item {
 ul.menu__list .menu__list-item a {
     text-decoration: none;
     color: #18191F;
-    font-size: 16px;
-    line-height: 24px;
     margin-right: 50px;
-    font-weight: 400;
 }
 ul.menu__list .menu__list-item a:last-child {
     margin-left: 0;
@@ -102,10 +181,6 @@ ul.menu__list .menu__list-item a:last-child {
     background-color: transparent;
     border: 1px solid #4CAF4F;
     margin-right: 14px;
-}
-
-.btn.signup__btn {
-    color: #fff;
 }
 
 /* Hero section */
@@ -128,26 +203,20 @@ ul.menu__list .menu__list-item a:last-child {
 
 .banner__item-content h1 {
     font-size: 64px;
-    font-weight: 600;
     line-height: 76px;
     margin-bottom: 16px;
 }
 
 .banner__item-content h1 span {
     color: #4CAF4F;
-    margin: 0;
 }
 
 .banner__item-content>p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
     margin-bottom: 32px;
 }
 
 .banner__item-content .btn {
     width: 128px;
-    color: #fff;
     text-align: center;
     padding: 14px 32px;
 }
@@ -176,7 +245,6 @@ button.owl-dot.active {
 /* Service section */
 .clients {
     padding: 40px 0;
-    background-color: #fff;
 }
 
 .clients .container {
@@ -186,17 +254,10 @@ button.owl-dot.active {
 }
 
 .clients h1 {
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 44px;
-    margin: 0;
     text-align: center;
 }
 
 .clients p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
     margin: 8px auto 16px;
     color: #717171;
 }
@@ -214,24 +275,14 @@ button.owl-dot.active {
 }
 
 /* community container */
-.community {
-    background-color: #fff;
-}
 
 .community h1 {
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 44px;
     text-align: center;
     color: #4D4D4D;
     max-width: 542px;
-    margin: 0 auto;
 }
 
 .community p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
     color: #717171;
     margin: 8px auto 16px;
     text-align: center;
@@ -260,32 +311,19 @@ button.owl-dot.active {
 
 .community__list .community__list-item h3 {
     width: 267px;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 36px;
     margin: 16px auto 8px;
     text-align: center;
 }
 
 .community__list .community__list-item p {
     width: 240px;
-    font-weight: 400;
-    line-height: 20px;
     margin: 16px auto 8px;
     text-align: center;
 }
 
 /* Experience section */
 .experience, .calendar {
-    background-color: #fff;
     padding: 42px 0 48px;
-}
-
-.experience .container,
-.calendar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .experience .experience__content,
@@ -295,23 +333,18 @@ button.owl-dot.active {
 
 .experience .experience__content h1,
 .calendar .calendar__content h1 {
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 44px;
     margin: 0 0 16px;
 }
 
 .experience .experience__content p,
 .calendar .calendar__content p {
-    font-weight: 400;
-    line-height: 20px;
-    margin: 0;
     padding-bottom: 32px;
+    color: #717171;
+    word-wrap: break-word;
 }
 
 .experience .experience__content .btn,
 .calendar .calendar__content .btn {
-    color: #fff;
     padding: 14px 32px;
 }
 
@@ -320,32 +353,20 @@ button.owl-dot.active {
     padding: 64px 0;
 }
 
-.achievements .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 .achievements .achievements__text,
 .achievements .achievements__list {
     max-width: 540px;
 }
-.achievements .achievements__text h3,
-.achievements .achievements__text h3 span {
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 44px;
+.achievements .achievements__text h3 {
     color: #4D4D4D;
-    margin: 0;
 }
 
 .achievements .achievements__text h3 span {
     color: #4CAF4F;
+    display: block;
 }
 
 .achievements .achievements__text p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
     margin: 8px 0 0;
 }
 
@@ -368,30 +389,10 @@ button.owl-dot.active {
     margin-right: 16px;
 }
 
-.achievements__list .achievements__list-item .achievements__item-content h4 {
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 36px;
-    margin: 0;
-}
-
-.achievements__list .achievements__list-item .achievements__item-content p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    margin: 0;
-}
-
 /* Customers section */
 
 .customers {
     padding: 32px 0;
-}
-
-.customers .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .customers .container>img {
@@ -402,31 +403,21 @@ button.owl-dot.active {
 
 .customers .customers__text p.customers__text-description,
 .customers .customers__text p.customers__text-organization {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
     color: #717171;
-    margin: 0;
+    word-wrap: break-word;
 }
 
 .customers .customers__text p.customers__text-author {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 28px;
     color: #4CAF4F;
     margin: 16px 0 8px;
 }
 
 .customers .customers__text p.customers__text-organization {
-    font-weight: 400;
     color: #89939E;
 }
 
 .customers .customers__text .customers__text-clients {
     margin-top: 32px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .customers .customers__text .customers__text-clients .customers__client-item {
@@ -439,23 +430,15 @@ button.owl-dot.active {
 
 /* Blog section */
 .blog {
-    background-color: #fff;
     padding: 48px 0 174px;
 }
 
 .blog .blog__description h3 {
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 44px;
-    margin: 0;
     text-align: center;
     color: #4D4D4D;
 }
 
 .blog .blog__description p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
     margin: 8px auto 16px;
     text-align: center;
     color: #717171;
@@ -470,7 +453,6 @@ button.owl-dot.active {
 .blog .blog__list img {
     width: 368px;
     display: block;
-    margin: 0 auto;
     border-radius: 8px;
 }
 .blog .blog__list .blog__list-item {
@@ -484,15 +466,11 @@ button.owl-dot.active {
     width: 317px;
     border-radius: 8px;
     background-color: #F5F7FA;
-    margin: 0 auto;
     bottom: -65px;
     box-shadow: 0 8px 16px 0 #ABBED166;
 }
 
 .blog .blog__list-item-text p {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 28px;
     color: #717171;
     margin: 0 auto 16px;
     text-align: center;
@@ -510,7 +488,6 @@ footer .footer__top {
 
 footer .footer__top h1 {
     font-size: 64px;
-    font-weight: 600;
     line-height: 76px;
     color: #263238;
     margin: 0 auto 32px;
@@ -522,10 +499,8 @@ footer .footer__top a {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
     padding: 14px 32px;
     max-width: 178px;
-    margin: 0 auto;
 }
 
 footer .footer__bottom {
@@ -545,10 +520,6 @@ footer .footer__bottom .footer__bottom-right {
     align-items: start;
 }
 
-footer .footer__bottom .logo span {
-    color: #fff;
-}
-
 footer .footer__bottom .logo {
     margin-bottom: 40px;
 }
@@ -557,13 +528,7 @@ footer .footer__bottom .footer__bottom-left {
     margin-right: 125px;
 }
 
-footer .footer__copyright p {
-    color: #fff;
-}
 footer .footer__socials {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-top: 40px;
 }
 
@@ -579,10 +544,6 @@ footer .footer__bottom-right .footer__menu-2 ul {
 footer .footer__bottom-right .footer__menu-1 h3,
 footer .footer__bottom-right .footer__menu-2 h3,
 footer .footer__bottom-right .footer__subsribe-form h3 {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 28px;
-    color: #fff;
     margin: 0 0 24px;
 }
 
@@ -595,9 +556,7 @@ footer .footer__bottom-right .footer__menu-2 ul {
 footer .footer__bottom-right .footer__menu-1 a,
 footer .footer__bottom-right .footer__menu-2 a {
     text-decoration: none;
-    color: #fff;
-    font-weight: 400;
-    line-height: 20px;
+    color: #F5F7FA;
 }
 footer .footer__bottom-right .footer__menu-1 li,
 footer .footer__bottom-right .footer__menu-2 li {
@@ -619,11 +578,8 @@ footer .footer__subsribe-form form input {
     background-color: transparent;
     border: none;
     padding: 9px 0 11px 12px;
-    font-weight: 400;
-    line-height: 20px;
     background-color: #515B60;
     border-radius: 8px;
-    color: #fff;
 }
 
 footer .footer__subsribe-form form input:focus {
